@@ -1,0 +1,1 @@
+C:\Dev\Jupyter\dist\run_jupyter_notebook.bat C:\Dev\projects\selenium_course
