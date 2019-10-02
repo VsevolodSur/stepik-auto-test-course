@@ -8,13 +8,13 @@ try:
 
     # Ваш код, который заполняет обязательные поля
 
-    input1 = browser.find_element_by_css_selector(".form-group>input.first[required]")
+    input1 = browser.find_element_by_css_selector("input.first[required]")
     input1.send_keys("Ivan")
     time.sleep(1)
-    input2 = browser.find_element_by_css_selector(".form-group>input.second[required]")
+    input2 = browser.find_element_by_css_selector("input.second[required]")
     input2.send_keys("Petrov")
     time.sleep(1)
-    input3 = browser.find_element_by_css_selector(".form-group>input.third[required]")
+    input3 = browser.find_element_by_css_selector("input.third[required]")
     input3.send_keys("ivan.pet@gmail.com")
     time.sleep(1)
 
